@@ -1,0 +1,14 @@
+body {
+    height: 100%;
+    background: #292E2F;
+    color: aliceblue;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+#app{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
