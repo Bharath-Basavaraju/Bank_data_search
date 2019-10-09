@@ -16,6 +16,11 @@ module.exports = {
                 exclude: /(node_modules|bower_components)/,
                 use: ['babel-loader']
             },
+			{
+				  test: /\.css$/,  
+				  include: /node_modules/,  
+				  loaders: ['style-loader', 'css-loader'],
+			},
             {
                 test: /.scss$/,
                 loader: 'style-loader!css-loader?modules&sourceMap&localIdentName=[local]___[hash:base64:5]!sass-loader?outputStyle=expanded&sourceMap'
