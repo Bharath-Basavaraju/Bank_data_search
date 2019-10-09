@@ -3,8 +3,7 @@ import { connect } from 'react-redux';
 import * as styles from '../resources/css/style.scss';
 import * as actions from '../actions/searchActions';
 import { Dropdown, Segment } from 'semantic-ui-react';
-import SearchTable from './searchtable';
-import { getProductList, getBandOption, getSubBandOption } from '../utils/helperFunction';
+import SearchTable from './searchTable';
 
 export class SearchContainer extends React.Component {
     constructor(props) {
