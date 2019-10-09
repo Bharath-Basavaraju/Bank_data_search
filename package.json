@@ -4,7 +4,7 @@
   "description": "Bank data search",
   "main": "index.js",
   "scripts": {
-    "start": "./node_modules/webpack",
+    "build": "webpack --mode=production",
     "test": "jest --coverage --verbose --runInBand",
     "test:watch": "jest --coverage --verbose --runInBand --watchAll"
   },
